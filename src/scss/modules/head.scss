@@ -3,6 +3,9 @@
   text-align: center;
   line-height: 120px; /* 200% */
 }
+.head-First-title.is-active {
+  color: var(--dark-blue, #005564);
+}
 .head-second-title {
   margin-top: 60px;
   color: var(--dark-blue, #005564);

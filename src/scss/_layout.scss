@@ -6,8 +6,13 @@
   align-items: center;
   background: var(--dark-blue, #005564);
 }
+.l-head.is-active {
+  background: var(--yellow, #fce757);
+}
 
-.l-card {
+.l-card-red,
+.l-card-green,
+.l-card-blue {
   margin-top: 20px;
   display: flex;
   padding: 0px 40px 20px 40px;
@@ -15,6 +20,12 @@
   align-items: center;
   gap: 20px;
   background: var(--green, #a0d187);
+}
+.l-card-red.is-active {
+  background: var(--red, #cf9697);
+}
+.l-card-blue.is-active {
+  background: var(--light-blue, #c0d9d9);
 }
 .l-footer {
   margin-top: 60px;
